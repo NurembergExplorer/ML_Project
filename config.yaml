@@ -1,0 +1,21 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+training:
+  test_size: 0.2
+  random_state: 42
+  spatial_folds: 5
+  optuna_trials: 50
+  ridge_alpha: 1.0
+  min_valid_frac: 0.0
+
+app:
+  pred_dir: data/processed/predictions
+  grid_path: data/processed/grid/grid_100m.gpkg
+  default_pred_col: built_pred
+  default_tile_size_m: 1000
+  default_threshold: 0.05
+  default_vmax_percentile: 95
+  default_percentile_low: 5
+  default_percentile_high: 95

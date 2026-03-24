@@ -1,0 +1,5 @@
+issue,evidence_value,explanation
+low_valid_fraction,0.02509391803962973,"Cells with low valid pixel fraction may reflect clouds, masking, or missingness."
+mixed_cells,0.22582070862081666,Cells whose dominant class is below 80% are mixed and harder to model cleanly.
+rare_water_dominance,0.004640656075821936,"Water-dominant cells are relatively uncommon, so class-specific performance may vary."
+other_class_ambiguity,0.003290200604021902,'Other' aggregates several heterogeneous classes and is intrinsically noisy.
