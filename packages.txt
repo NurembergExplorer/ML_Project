@@ -1,0 +1,5 @@
+proj-bin
+libproj-dev
+gdal-bin
+libgdal-dev
+pkg-config
